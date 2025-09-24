@@ -1,6 +1,7 @@
 ---
 title: Hello World
 draft: false
+weight: 1
 ---
 
 ### Hi there! 👋

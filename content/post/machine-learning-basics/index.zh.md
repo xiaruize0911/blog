@@ -2,6 +2,7 @@
 title: machine-learning-basics
 date: 2025-09-22 22:50:31
 draft: false
+math: true
 ---
 
 # Machine Learning Basics

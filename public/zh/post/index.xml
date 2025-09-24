@@ -9,6 +9,26 @@
     <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
     <atom:link href="https://xiaruize.org/zh/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hello World</title>
+      <link>https://xiaruize.org/zh/post/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/hello-world/</guid>
+      <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there! 👋&lt;/h3&gt;
+&lt;p&gt;I’m &lt;strong&gt;Ruize Xia&lt;/strong&gt; (xiaruize0911), a student at &lt;strong&gt;Nanjing Foreign Language School&lt;/strong&gt; in &lt;strong&gt;Nanjing, Jiangsu, China&lt;/strong&gt;. I am passionate about learning and exploring new technologies and ideas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-location&#34;&gt;🌍 Location&lt;/h3&gt;
+&lt;p&gt;📍 Nanjing, Jiangsu, China&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-contact-me&#34;&gt;📫 Contact Me&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:xiaruize0911@gmail.com&#34;&gt;xiaruize0911@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QQ&lt;/strong&gt;: 2188298460&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WeChat&lt;/strong&gt;: xiaruize0911&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Thank you for visiting! Feel free to explore my blog and connect with me. 🚀&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>machine-learning-basics</title>
       <link>https://xiaruize.org/zh/post/machine-learning-basics/</link>
       <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
@@ -32,7 +52,7 @@
 &lt;h2 id=&#34;example-linear-regression&#34;&gt;Example: Linear Regression&lt;/h2&gt;
 &lt;h3 id=&#34;model&#34;&gt;Model&lt;/h3&gt;
 &lt;p&gt;线性回归是最简单的监督学习算法之一，假设输入 $x$ 和输出 $y$ 之间存在线性关系，可以表示为(这里先不考虑截距项)：&lt;/p&gt;
-&lt;p&gt;$$y = w^T x $$&lt;/p&gt;</description>
+$$y = w^T x $$&lt;p&gt;其中 $w$ 是模型的参数，表示输入各个特征的权重, 即学习的目标&lt;/p&gt;</description>
     </item>
     <item>
       <title>deep-feedforward-neural-networks</title>
@@ -70,26 +90,6 @@
 &lt;li&gt;&lt;a href=&#34;https://xiaruize.org/machine-learning-basics/&#34;&gt;Machine Learning Basics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xiaruize.org/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>https://xiaruize.org/zh/post/hello-world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xiaruize.org/zh/post/hello-world/</guid>
-      <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there! 👋&lt;/h3&gt;
-&lt;p&gt;I’m &lt;strong&gt;Ruize Xia&lt;/strong&gt; (xiaruize0911), a student at &lt;strong&gt;Nanjing Foreign Language School&lt;/strong&gt; in &lt;strong&gt;Nanjing, Jiangsu, China&lt;/strong&gt;. I am passionate about learning and exploring new technologies and ideas.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-location&#34;&gt;🌍 Location&lt;/h3&gt;
-&lt;p&gt;📍 Nanjing, Jiangsu, China&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-contact-me&#34;&gt;📫 Contact Me&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:xiaruize0911@gmail.com&#34;&gt;xiaruize0911@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;QQ&lt;/strong&gt;: 2188298460&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;WeChat&lt;/strong&gt;: xiaruize0911&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Thank you for visiting! Feel free to explore my blog and connect with me. 🚀&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

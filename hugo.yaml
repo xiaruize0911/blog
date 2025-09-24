@@ -138,3 +138,22 @@ languages:
   zh:
     languageName: 中文
     weight: 20
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
+params:
+  math: true
