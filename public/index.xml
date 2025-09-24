@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Basics</title>
+      <link>http://localhost:1313/post/machine-learning-basics/</link>
+      <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
+      <guid>http://localhost:1313/post/machine-learning-basics/</guid>
+      <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
+&lt;p&gt;This article is based on Chapter 5 of &lt;a href=&#34;https://www.deeplearning.ai/machine-learning-yearning/&#34;&gt;Machine Learning Yearning&lt;/a&gt; and introduces some basic concepts and methods of machine learning.&lt;/p&gt;
+&lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;
+&lt;p&gt;This article mainly discusses supervised learning algorithms.&lt;/p&gt;
+&lt;p&gt;First, let’s introduce some basic concepts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Training Set&lt;/strong&gt;: The dataset used to train the model, containing input data (sample, $X$) and corresponding labels ($y$).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sample&lt;/strong&gt;: Each data point in the training set, usually represented as a vector $x^{(i)}$, where $i$ is the sample index.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Set&lt;/strong&gt;: The dataset used to evaluate model performance, containing unseen input data and corresponding labels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: The input data to the model, usually represented as a vector $x \in \mathbb{R}^n$, where $n$ is the input dimension.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt;: The output result of the model, usually represented as a scalar $y$, which can be a continuous value (regression) or a discrete value (classification).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt;: Each dimension of the input data, represented as $x_1, x_2, \ldots, x_n$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Label&lt;/strong&gt;: The true output value corresponding to the input data, generally represented as $y$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main goal of supervised learning algorithms is to learn $P(y|x)$ from a training set, obtain a model to get an approximate value $\hat{P}(y|x)$, so that for new input $x$, the corresponding output $y$ can be predicted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Feedforward Neural Networks</title>
+      <link>http://localhost:1313/post/deep-feedforward-neural-networks/</link>
+      <pubDate>Mon, 22 Sep 2025 22:40:11 +0000</pubDate>
+      <guid>http://localhost:1313/post/deep-feedforward-neural-networks/</guid>
+      <description>&lt;h1 id=&#34;deep-feedforward-neural-networks&#34;&gt;Deep Feedforward Neural Networks&lt;/h1&gt;
+&lt;p&gt;This article is a study note for Chapter 6 of the book &lt;a href=&#34;http://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Deep Feedforward Networks, also known as Multilayer Perceptrons (MLPs), are the most classic neural network models.&lt;/p&gt;
+&lt;p&gt;From the perspective of graph theory, a deep feedforward network is a Directed Acyclic Graph (DAG), where each node represents a neuron and each edge represents a connection weight. The connections between nodes are directional, and information can only flow along the direction of the edges. Therefore, deep feedforward networks have no cycles or feedback connections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Learning Study Notes</title>
+      <link>http://localhost:1313/post/deep-learning-study-notes/</link>
+      <pubDate>Mon, 22 Sep 2025 22:03:47 +0000</pubDate>
+      <guid>http://localhost:1313/post/deep-learning-study-notes/</guid>
+      <description>&lt;h1 id=&#34;deep-learning-study-notes&#34;&gt;Deep Learning Study Notes&lt;/h1&gt;
+&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
+&lt;p&gt;This article is a summary directory of study notes and project records related to Deep Learning (DL).&lt;/p&gt;
+&lt;p&gt;Thank you for reading. If you have any questions, feel free to leave a comment or contact me via &lt;a href=&#34;mailto:xiaruize0911@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there! 👋&lt;/h3&gt;
+&lt;p&gt;I’m &lt;strong&gt;Ruize Xia&lt;/strong&gt; (xiaruize0911), a student at &lt;strong&gt;Nanjing Foreign Language School&lt;/strong&gt; in &lt;strong&gt;Nanjing, Jiangsu, China&lt;/strong&gt;. I am passionate about learning and exploring new technologies and ideas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-location&#34;&gt;🌍 Location&lt;/h3&gt;
+&lt;p&gt;📍 Nanjing, Jiangsu, China&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-contact-me&#34;&gt;📫 Contact Me&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:xiaruize0911@gmail.com&#34;&gt;xiaruize0911@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QQ&lt;/strong&gt;: 2188298460&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WeChat&lt;/strong&gt;: xiaruize0911&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Thank you for visiting! Feel free to explore my blog and connect with me. 🚀&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
