@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on xiaruize&#39;s Blog</title>
-    <link>https://xiaruize.org/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
-    <atom:link href="https://xiaruize.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://xiaruize.org/post/hello-world/</link>
+      <link>http://localhost:1313/post/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xiaruize.org/post/hello-world/</guid>
+      <guid>http://localhost:1313/post/hello-world/</guid>
       <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there! 👋&lt;/h3&gt;
 &lt;p&gt;I’m &lt;strong&gt;Ruize Xia&lt;/strong&gt; (xiaruize0911), a student at &lt;strong&gt;Nanjing Foreign Language School&lt;/strong&gt; in &lt;strong&gt;Nanjing, Jiangsu, China&lt;/strong&gt;. I am passionate about learning and exploring new technologies and ideas.&lt;/p&gt;
 &lt;hr&gt;
@@ -30,9 +30,9 @@
     </item>
     <item>
       <title>Machine Learning Basics</title>
-      <link>https://xiaruize.org/post/machine-learning-basics/</link>
+      <link>http://localhost:1313/post/machine-learning-basics/</link>
       <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
-      <guid>https://xiaruize.org/post/machine-learning-basics/</guid>
+      <guid>http://localhost:1313/post/machine-learning-basics/</guid>
       <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
 &lt;p&gt;This article is based on Chapter 5 of &lt;a href=&#34;https://www.deeplearning.ai/machine-learning-yearning/&#34;&gt;Machine Learning Yearning&lt;/a&gt; and introduces some basic concepts and methods of machine learning.&lt;/p&gt;
 &lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;
@@ -51,9 +51,9 @@
     </item>
     <item>
       <title>Deep Feedforward Neural Networks</title>
-      <link>https://xiaruize.org/post/deep-feedforward-neural-networks/</link>
+      <link>http://localhost:1313/post/deep-feedforward-neural-networks/</link>
       <pubDate>Mon, 22 Sep 2025 22:40:11 +0000</pubDate>
-      <guid>https://xiaruize.org/post/deep-feedforward-neural-networks/</guid>
+      <guid>http://localhost:1313/post/deep-feedforward-neural-networks/</guid>
       <description>&lt;h1 id=&#34;deep-feedforward-neural-networks&#34;&gt;Deep Feedforward Neural Networks&lt;/h1&gt;
 &lt;p&gt;This article is a study note for Chapter 6 of the book &lt;a href=&#34;http://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -62,9 +62,9 @@
     </item>
     <item>
       <title>Deep Learning Study Notes</title>
-      <link>https://xiaruize.org/post/deep-learning-study-notes/</link>
+      <link>http://localhost:1313/post/deep-learning-study-notes/</link>
       <pubDate>Mon, 22 Sep 2025 22:03:47 +0000</pubDate>
-      <guid>https://xiaruize.org/post/deep-learning-study-notes/</guid>
+      <guid>http://localhost:1313/post/deep-learning-study-notes/</guid>
       <description>&lt;h1 id=&#34;deep-learning-study-notes&#34;&gt;Deep Learning Study Notes&lt;/h1&gt;
 &lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;This article is a summary directory of study notes and project records related to Deep Learning (DL).&lt;/p&gt;
@@ -72,7 +72,7 @@
 &lt;p&gt;Thank you!&lt;/p&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://xiaruize.org/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

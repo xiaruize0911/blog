@@ -2,105 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaruize.org/post/hello-world/</loc>
+    <loc>http://localhost:1313/post/hello-world/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/hello-world/"
+                href="http://localhost:1313/zh/post/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/hello-world/"
+                href="http://localhost:1313/post/hello-world/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/machine-learning-basics/</loc>
+    <loc>http://localhost:1313/post/machine-learning-basics/</loc>
     <lastmod>2025-09-22T22:50:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/machine-learning-basics/"
+                href="http://localhost:1313/zh/post/machine-learning-basics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/machine-learning-basics/"
+                href="http://localhost:1313/post/machine-learning-basics/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-09-22T22:50:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/"
+                href="http://localhost:1313/zh/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/"
+                href="http://localhost:1313/post/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-22T22:50:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/"
+                href="http://localhost:1313/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/deep-feedforward-neural-networks/</loc>
+    <loc>http://localhost:1313/post/deep-feedforward-neural-networks/</loc>
     <lastmod>2025-09-22T22:40:11+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/deep-feedforward-neural-networks/"
+                href="http://localhost:1313/zh/post/deep-feedforward-neural-networks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/deep-feedforward-neural-networks/"
+                href="http://localhost:1313/post/deep-feedforward-neural-networks/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/deep-learning-study-notes/</loc>
+    <loc>http://localhost:1313/post/deep-learning-study-notes/</loc>
     <lastmod>2025-09-22T22:03:47+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/deep-learning-study-notes/"
+                href="http://localhost:1313/zh/post/deep-learning-study-notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/deep-learning-study-notes/"
+                href="http://localhost:1313/post/deep-learning-study-notes/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/categories/"
+                href="http://localhost:1313/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/tags/"
+                href="http://localhost:1313/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>
