@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning/Deep Learning on xiaruize&#39;s Blog</title>
+    <link>https://xiaruize.org/zh/categories/machine-learning/deep-learning/</link>
+    <description>Recent content in Machine Learning/Deep Learning on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
+    <atom:link href="https://xiaruize.org/zh/categories/machine-learning/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器学习基础</title>
+      <link>https://xiaruize.org/zh/post/machine-learning-basics/</link>
+      <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/machine-learning-basics/</guid>
+      <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
+&lt;p&gt;这篇文章基于Deep Learning [@Goodfellow-et-al-2016] 一书 Chapt5，介绍机器学习的一些基本概念和方法。&lt;/p&gt;
+&lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;
+&lt;p&gt;本文主要讨论监督学习算法。&lt;/p&gt;
+&lt;p&gt;首先，介绍一些基本概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练集 (Training Set)&lt;/strong&gt;：用于训练模型的数据集，包含输入数据 (sample, $X$)和对应的标签（label，$y$）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;样本 (Sample)&lt;/strong&gt;：训练集中的每一个数据点，通常表示为一个向量 $x^{(i)}$，其中 $i$ 是样本的索引。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试集 (Test Set)&lt;/strong&gt;：用于评估模型性能的数据集，包含不被用在训练中，未见过的输入数据和对应的标签。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入 (Input)&lt;/strong&gt;：模型的输入数据，通常表示为一个向量 $x \in \mathbb{R}^n$，其中 $n$ 是输入的维度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输出 (Output)&lt;/strong&gt;：模型的输出结果，通常表示为一个标量 $y$，可以是连续值（回归问题）或离散值（分类问题）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特征 (Feature)&lt;/strong&gt;：输入数据的各个维度，表示为 $x_1, x_2, \ldots, x_n$。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标签 (Label)&lt;/strong&gt;：输入数据对应的真实输出值，一般表示为 $y$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;监督学习算法的主要目的是，从一个训练集中学习 $P(y|x)$ ，得到一个模型，来获得近似值 $\hat{P}(y|x)$，使得对于新的输入 $x$，可以预测出对应的输出 $y$。&lt;/p&gt;
+&lt;p&gt;表示数据集的常用方法是将所有样本的输入和标签分别存储在矩阵和向量中，例如 28*28 的灰度图像可以表示为一个 (1,28,28) 的张量，包含 $m$ 个样本的训练集可以表示为一个 (m,1,28,28) 的张量，标签可以表示为一个 (m,) 的向量。&lt;/p&gt;
+&lt;h2 id=&#34;example-linear-regression&#34;&gt;Example: Linear Regression&lt;/h2&gt;
+&lt;h3 id=&#34;model&#34;&gt;Model&lt;/h3&gt;
+&lt;p&gt;线性回归是最简单的监督学习算法之一，假设输入 $x$ 和输出 $y$ 之间存在线性关系，可以表示为(这里先不考虑截距项)：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,13 +1,16 @@
 ---
-title: machine-learning-basics
+title: 机器学习基础
 date: 2025-09-22 22:50:31
 draft: false
-math: true
+params:
+    math: true
+tag: DL
+categories: [Machine Learning/Deep Learning]
 ---
 
 # Machine Learning Basics
 
-这篇文章基于[Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/)一书 Chapt5，介绍机器学习的一些基本概念和方法。
+这篇文章基于Deep Learning [@Goodfellow-et-al-2016] 一书 Chapt5，介绍机器学习的一些基本概念和方法。
 
 ## Supervised Learning
 
@@ -59,23 +62,33 @@ $$MSE(y, \hat{y}) = \frac{1}{m} \sum_{i=1}^{m} (y^{(i)} - \hat{y}^{(i)})^2$$
 
 ### Optimization
 
-下面我们的目标就是最小化 MSE 损失函数，找到最优的参数 $w$。
+下面我们的目标就是最小化 MSE 损失函数，找到最优的参数 $w$ 。
 
-为了达成这个目标，我们希望找到通过训练集，找到满足或尽可能接近 $\triangledown_w MSE_{train}=0$ 的 $w$
+为了达成这个目标，我们希望找到通过训练集，找到满足或尽可能接近 $\triangledown_w MSE_{train}=0$ 的 $w$ 。
 
 $$
-\begin{align*}
-    
-& \triangledown_w MSE_{train} = 0\\
-
-\Rightarrow & \frac{1}{m} \triangledown_w ||X_{train} \cdot w-y_{train}||^2_2 = 0\\
-
-\Rightarrow & \triangledown_w (X_{train} \cdot w-y_{train})^T (X_{train} \cdot w-y_{train}) =0\\
-
+\begin{aligned}
+\nabla_w MSE_{train} = 0\\
+\Rightarrow & \frac{1}{m} \nabla_w ||X_{train} \cdot w-y_{train}||_2^2 = 0\\
+\Rightarrow & \nabla_w (X_{train} \cdot w-y_{train})^T (X_{train} \cdot w-y_{train}) =0\\
 \Rightarrow & 2X_{train}^T (X_{train} \cdot w-y_{train}) =0\\
-
-\Rightarrow & w = (X_{train}^T X_{train})^{-1} X_{train}^T y_{train}
-\end{align*}
+\Rightarrow & w = (X_{train}^T X_{train})^{-1} X_{train}^T y_{train}\\
+\end{aligned}
 $$
 
 以上推出的解被称为正规方程 (Normal Equation)，它给出了线性回归问题的闭式解 (Closed-form Solution)。
+
+值得注意的是，一般情况下，linear regression 通常还要附带参数 $b$ 作为截距项，即
+$$y = w^T x + b$$
+
+通常， $b$ 也被称为偏置 (bias) 参数
+
+## Learning
+
+在实际情况中，训练集往往非常大，计算正规方程的闭式解非常耗时，且当前仅为一个神经元的线性回归问题，实际的神经网络往往包含大量参数，计算闭式解更加困难。
+
+考虑如何去拟合出一个好的 $w$，我们可以使用梯度下降 (Gradient Descent) 方法。具体请参考 [梯度下降](/gradient-descent) 文章。
+
+## References
+
+[Goodfellow-et-al-2016]: Ian Goodfellow, Yoshua Bengio, and Aaron Courville. *Deep Learning*. MIT Press, 2016. [http://www.deeplearningbook.org](http://www.deeplearningbook.org)

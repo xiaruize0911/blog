@@ -6,7 +6,7 @@
     <description>Recent content in Posts on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 21:26:00 +0800</lastBuildDate>
     <atom:link href="https://xiaruize.org/zh/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
@@ -29,12 +29,32 @@
 &lt;p&gt;Thank you for visiting! Feel free to explore my blog and connect with me. 🚀&lt;/p&gt;</description>
     </item>
     <item>
-      <title>machine-learning-basics</title>
+      <title>Gradient Descent</title>
+      <link>https://xiaruize.org/zh/post/gradient-descent/</link>
+      <pubDate>Thu, 25 Sep 2025 21:26:00 +0800</pubDate>
+      <guid>https://xiaruize.org/zh/post/gradient-descent/</guid>
+      <description>&lt;h1 id=&#34;gradient-descent-梯度下降&#34;&gt;Gradient Descent （梯度下降）&lt;/h1&gt;
+&lt;p&gt;梯度下降（Gradient Descent）是一种用于优化目标函数的迭代算法，广泛应用于机器学习和深度学习中，用于训练模型以最小化损失函数。推荐先阅读 &lt;a href=&#34;https://xiaruize.org/machine-learning-basics&#34;&gt;机器学习基础&lt;/a&gt; 文章以对梯度下降的背景有大概的了解。&lt;/p&gt;
+&lt;h2 id=&#34;目标函数&#34;&gt;目标函数&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;目标函数 (Objective Function)&lt;/strong&gt;：有时也称作准则(criterion)、代价函数(cost function)或损失函数(loss function)，是我们希望最小化的函数，通常表示为 $J(\theta)$，其中 $\theta$ 是模型的参数。例如，在线性回归中使用的 均方误差 (Mean Squared Error, MSE) 就是一个常见的目标函数。&lt;/p&gt;
+&lt;p&gt;一般来说，定义 $x^* = \arg\min_{x} J(x)$&lt;/p&gt;
+&lt;h2 id=&#34;导数&#34;&gt;导数&lt;/h2&gt;
+&lt;p&gt;记现在需要优化的函数为 $y = f(x)$，这个函数的导数 $f&#39;(x)$ 表示函数在点 $x$ 处的变化率，或者说是函数图像在该点的切线斜率。&lt;/p&gt;
+&lt;p&gt;利用导数的定义，发现导数实际指示了函数在该点的变化趋势，我们可以很容易的判断出函数下降的方向&lt;/p&gt;
+&lt;p&gt;取一个小的正数 $\epsilon$，如果 $f&#39;(x) &gt; 0$，则 $f(x - \epsilon) &lt; f(x)$，否则 $f(x + \epsilon) &lt; f(x)$，也就是说：&lt;/p&gt;
+$$
+f(x -\epsilon\cdot \text{sign}(f&#39;(x))) &lt; f(x)
+$$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt;
+&lt;h2 id=&#34;梯度&#34;&gt;梯度&lt;/h2&gt;
+&lt;p&gt;下面，将上面所述的过程扩展到多维空间中，假设现在有一个多变量函数 $f: \mathbb{R}^n \to \mathbb{R}$，其输入为一个 $n$ 维向量 $x = [x_1, x_2, \ldots, x_n]^T$，输出为一个标量 $y = f(x)$。我们希望找到使得 $f(x)$ 最小化的 $x$。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>机器学习基础</title>
       <link>https://xiaruize.org/zh/post/machine-learning-basics/</link>
       <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
       <guid>https://xiaruize.org/zh/post/machine-learning-basics/</guid>
       <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
-&lt;p&gt;这篇文章基于&lt;a href=&#34;https://www.deeplearning.ai/machine-learning-yearning/&#34;&gt;Machine Learning Yearning&lt;/a&gt;一书 Chapt5，介绍机器学习的一些基本概念和方法。&lt;/p&gt;
+&lt;p&gt;这篇文章基于Deep Learning [@Goodfellow-et-al-2016] 一书 Chapt5，介绍机器学习的一些基本概念和方法。&lt;/p&gt;
 &lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;
 &lt;p&gt;本文主要讨论监督学习算法。&lt;/p&gt;
 &lt;p&gt;首先，介绍一些基本概念：&lt;/p&gt;
@@ -51,8 +71,7 @@
 &lt;p&gt;表示数据集的常用方法是将所有样本的输入和标签分别存储在矩阵和向量中，例如 28*28 的灰度图像可以表示为一个 (1,28,28) 的张量，包含 $m$ 个样本的训练集可以表示为一个 (m,1,28,28) 的张量，标签可以表示为一个 (m,) 的向量。&lt;/p&gt;
 &lt;h2 id=&#34;example-linear-regression&#34;&gt;Example: Linear Regression&lt;/h2&gt;
 &lt;h3 id=&#34;model&#34;&gt;Model&lt;/h3&gt;
-&lt;p&gt;线性回归是最简单的监督学习算法之一，假设输入 $x$ 和输出 $y$ 之间存在线性关系，可以表示为(这里先不考虑截距项)：&lt;/p&gt;
-$$y = w^T x $$&lt;p&gt;其中 $w$ 是模型的参数，表示输入各个特征的权重, 即学习的目标&lt;/p&gt;</description>
+&lt;p&gt;线性回归是最简单的监督学习算法之一，假设输入 $x$ 和输出 $y$ 之间存在线性关系，可以表示为(这里先不考虑截距项)：&lt;/p&gt;</description>
     </item>
     <item>
       <title>deep-feedforward-neural-networks</title>

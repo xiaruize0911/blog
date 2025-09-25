@@ -14,21 +14,11 @@
                 href="https://xiaruize.org/zh/post/hello-world/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/zh/post/machine-learning-basics/</loc>
-    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaruize.org/post/machine-learning-basics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaruize.org/zh/post/machine-learning-basics/"
-                />
+    <loc>https://xiaruize.org/zh/post/gradient-descent/</loc>
+    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
   </url><url>
     <loc>https://xiaruize.org/zh/post/</loc>
-    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
+    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,7 +31,7 @@
                 />
   </url><url>
     <loc>https://xiaruize.org/zh/</loc>
-    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
+    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,6 +41,35 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://xiaruize.org/zh/"
+                />
+  </url><url>
+    <loc>https://xiaruize.org/zh/categories/</loc>
+    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaruize.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://xiaruize.org/zh/categories/"
+                />
+  </url><url>
+    <loc>https://xiaruize.org/zh/categories/machine-learning/deep-learning/</loc>
+    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaruize.org/zh/post/machine-learning-basics/</loc>
+    <lastmod>2025-09-22T22:50:31+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaruize.org/post/machine-learning-basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://xiaruize.org/zh/post/machine-learning-basics/"
                 />
   </url><url>
     <loc>https://xiaruize.org/zh/post/deep-feedforward-neural-networks/</loc>
@@ -77,18 +96,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://xiaruize.org/zh/post/deep-learning-study-notes/"
-                />
-  </url><url>
-    <loc>https://xiaruize.org/zh/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaruize.org/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaruize.org/zh/categories/"
                 />
   </url><url>
     <loc>https://xiaruize.org/zh/tags/</loc>
