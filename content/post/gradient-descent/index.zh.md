@@ -3,6 +3,11 @@ date: '2025-09-25T21:26:00+08:00'
 draft: false
 title: 'Gradient Descent'
 math: true
+resource:
+- name: gradient-descent
+  src: 1JjcQ.png
+tag: ML
+categories: [Machine Learning]
 ---
 
 # Gradient Descent （梯度下降）
@@ -54,7 +59,7 @@ $$
 
 例如在这张图中，我们很难停在P2这个点上，因为浮点计算误差，很难精确的停在这个点上。但是有很大概率，我们会停在P1这个点上，即使它不是全局最小值点。通常这个点已经足够好了。
 
-![梯度下降示意图](1JjcQ.png)
+![梯度下降示意图](https://s2.loli.net/2025/09/25/2fh8Y9SxadZJcLe.png)
 
 扩展到多维空间中，我们可以设计如下的梯度下降算法：
 1. 初始化参数 $x$，可以随机初始化或者使用某种启发式方法。

@@ -6,7 +6,7 @@
     <description>Recent content on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Sep 2025 22:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 21:26:00 +0800</lastBuildDate>
     <atom:link href="https://xiaruize.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
@@ -27,6 +27,16 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;Thank you for visiting! Feel free to explore my blog and connect with me. 🚀&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gradient Descent</title>
+      <link>https://xiaruize.org/post/gradient-descent/</link>
+      <pubDate>Thu, 25 Sep 2025 21:26:00 +0800</pubDate>
+      <guid>https://xiaruize.org/post/gradient-descent/</guid>
+      <description>&lt;h1 id=&#34;gradient-descent&#34;&gt;Gradient Descent&lt;/h1&gt;
+&lt;p&gt;Gradient Descent is an iterative algorithm used to optimize objective functions, widely applied in machine learning and deep learning to train models by minimizing loss functions. It is recommended to first read the &lt;a href=&#34;https://xiaruize.org/machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/a&gt; article for background understanding.&lt;/p&gt;
+&lt;h2 id=&#34;objective-function&#34;&gt;Objective Function&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Objective Function&lt;/strong&gt;: Sometimes also called criterion, cost function, or loss function, is the function we aim to minimize, usually denoted as $J(\theta)$, where $\theta$ is the model parameter. For example, Mean Squared Error (MSE) used in linear regression is a common objective function.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Machine Learning Basics</title>
