@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>前端 on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/zh/tags/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 前端 on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 Vibe Coding 构建 University Ranking Frontend：架构与设计策略</title>
+      <link>http://localhost:1313/zh/post/university-ranking-frontend/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/post/university-ranking-frontend/</guid>
+      <description>探索我们如何使用 Vibe Coding（AI 辅助开发）构建 University Ranking Frontend——一个注重实用选择和快速迭代的生产级 React Native 移动应用。</description>
+    </item>
+  </channel>
+</rss>

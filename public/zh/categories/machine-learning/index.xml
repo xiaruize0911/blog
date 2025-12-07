@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on xiaruize&#39;s Blog</title>
-    <link>https://xiaruize.org/zh/categories/machine-learning/</link>
+    <link>http://localhost:1313/zh/categories/machine-learning/</link>
     <description>Recent content in Machine Learning on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 25 Sep 2025 21:26:00 +0800</lastBuildDate>
-    <atom:link href="https://xiaruize.org/zh/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gradient Descent</title>
-      <link>https://xiaruize.org/zh/post/gradient-descent/</link>
+      <link>http://localhost:1313/zh/post/gradient-descent/</link>
       <pubDate>Thu, 25 Sep 2025 21:26:00 +0800</pubDate>
-      <guid>https://xiaruize.org/zh/post/gradient-descent/</guid>
+      <guid>http://localhost:1313/zh/post/gradient-descent/</guid>
       <description>&lt;h1 id=&#34;gradient-descent-梯度下降&#34;&gt;Gradient Descent （梯度下降）&lt;/h1&gt;
-&lt;p&gt;梯度下降（Gradient Descent）是一种用于优化目标函数的迭代算法，广泛应用于机器学习和深度学习中，用于训练模型以最小化损失函数。推荐先阅读 &lt;a href=&#34;https://xiaruize.org/machine-learning-basics&#34;&gt;机器学习基础&lt;/a&gt; 文章以对梯度下降的背景有大概的了解。&lt;/p&gt;
+&lt;p&gt;梯度下降（Gradient Descent）是一种用于优化目标函数的迭代算法，广泛应用于机器学习和深度学习中，用于训练模型以最小化损失函数。推荐先阅读 &lt;a href=&#34;http://localhost:1313/machine-learning-basics&#34;&gt;机器学习基础&lt;/a&gt; 文章以对梯度下降的背景有大概的了解。&lt;/p&gt;
 &lt;h2 id=&#34;目标函数&#34;&gt;目标函数&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;目标函数 (Objective Function)&lt;/strong&gt;：有时也称作准则(criterion)、代价函数(cost function)或损失函数(loss function)，是我们希望最小化的函数，通常表示为 $J(\theta)$，其中 $\theta$ 是模型的参数。例如，在线性回归中使用的 均方误差 (Mean Squared Error, MSE) 就是一个常见的目标函数。&lt;/p&gt;
 &lt;p&gt;一般来说，定义 $x^* = \arg\min_{x} J(x)$&lt;/p&gt;
@@ -30,9 +30,9 @@ $$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt
     </item>
     <item>
       <title>机器学习基础</title>
-      <link>https://xiaruize.org/zh/post/machine-learning-basics/</link>
+      <link>http://localhost:1313/zh/post/machine-learning-basics/</link>
       <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
-      <guid>https://xiaruize.org/zh/post/machine-learning-basics/</guid>
+      <guid>http://localhost:1313/zh/post/machine-learning-basics/</guid>
       <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
 &lt;p&gt;这篇文章基于Deep Learning [@Goodfellow-et-al-2016] 一书 Chapt5，介绍机器学习的一些基本概念和方法。&lt;/p&gt;
 &lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;

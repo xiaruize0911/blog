@@ -89,6 +89,19 @@ $$y = w^T x + b$$
 
 考虑如何去拟合出一个好的 $w$，我们可以使用梯度下降 (Gradient Descent) 方法。具体请参考 [梯度下降](/gradient-descent) 文章。
 
+## Capacity, Overfitting and Underfitting
+
+- 容量 (Capacity)：模型拟合数据的能力，通常与模型的复杂度相关。复杂度高的模型具有更高的容量，能够拟合更多样化的数据。
+- 欠拟合 (Underfitting)：模型过于简单，无法捕捉数据的复杂模式，导致在训练集和测试集上都表现不佳。
+- 过拟合 (Overfitting)：模型过于复杂，过度拟合训练集中的噪声，导致在测试集上表现不佳。
+- 泛化 (Generalization)：模型在未见过的数据上的表现能力，即模型对新数据的适应能力。
+
+## No Free Lunch Theorem
+
+没有免费午餐定理 (No Free Lunch Theorem) 指出，在所有可能的数据生成分布上平均之后，每一个分类算法的表现都是一样的。换句话说，没有一种学习算法能够在所有可能的问题上都表现得最好。
+
+这意味着我们需要根据具体的问题和数据选择合适的模型和算法，不能期望有一种万能的解决方案。
+
 ## References
 
 [Goodfellow-et-al-2016]: Ian Goodfellow, Yoshua Bengio, and Aaron Courville. *Deep Learning*. MIT Press, 2016. [http://www.deeplearningbook.org](http://www.deeplearningbook.org)

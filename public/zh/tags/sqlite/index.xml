@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQLite on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/zh/tags/sqlite/</link>
+    <description>Recent content in SQLite on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Vibe Coding 构建大学排名后端</title>
+      <link>http://localhost:1313/zh/post/university-ranking-backend/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/post/university-ranking-backend/</guid>
+      <description>&lt;p&gt;在这篇文章中，我将分享构建 &lt;strong&gt;University Ranking Backend&lt;/strong&gt; 的过程。这是一个 RESTful API，用于聚合和提供来自 QS 和 US News 等权威机构的大学排名数据。我们将探讨 Vibe Coding 策略、技术架构和驱动系统的核心算法。&lt;/p&gt;
+&lt;h2 id=&#34;-完整系列阅读&#34;&gt;📚 完整系列阅读&lt;/h2&gt;
+&lt;p&gt;这个项目内容丰富，我将其分为深入系列文章：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分：核心逻辑与 API 架构&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;探索 &lt;code&gt;app.py&lt;/code&gt; 应用入口&lt;/li&gt;
+&lt;li&gt;解析 &lt;code&gt;models/universities.py&lt;/code&gt; 中的&amp;quot;智能表选择&amp;quot;算法&lt;/li&gt;
+&lt;li&gt;讲解 API 路由的实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分：数据工程与脚本&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍 ETL 流程（提取、转换、加载）&lt;/li&gt;
+&lt;li&gt;展示如何在不同数据集间标准化大学名称&lt;/li&gt;
+&lt;li&gt;阐述动态排名发现机制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-项目介绍&#34;&gt;🚀 项目介绍&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;University Ranking Backend&lt;/strong&gt; 是一个集中式服务，为全球大学提供详细信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数据聚合&lt;/strong&gt;：整合来自多个来源（QS、US News、Niche）的排名数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt;：内置英文和中文大学名称支持&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能过滤&lt;/strong&gt;：支持按名称、国家、城市和排名标准进行搜索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目标是创建一个轻量级、易查询的接口，让前端应用能轻松使用，无需关心合并不同排名数据的复杂逻辑。&lt;/p&gt;
+&lt;h2 id=&#34;-vibe-coding-策略&#34;&gt;💡 Vibe Coding 策略&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Vibe Coding&amp;rdquo; 是一种 AI 辅助编码方法，开发者与 AI 工具协作加速开发，AI 充当协作伙伴处理重复任务、生成模板代码，并快速探索解决方案。本项目采用 &lt;strong&gt;数据驱动、逻辑其次&lt;/strong&gt; 的策略，并得到 AI 的充分协助。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;数据收集与质量检查&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;首先在 &lt;code&gt;data/&lt;/code&gt; 目录收集原始数据（CSV、JSON 格式）&lt;/li&gt;
+&lt;li&gt;通过&amp;quot;质量检查&amp;quot;确保数据统一一致、排名准确、格式规范&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;脚本化处理流程&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;编写独立脚本（&lt;code&gt;scripts/&lt;/code&gt; 目录）处理原始数据和填充 SQLite 数据库&lt;/li&gt;
+&lt;li&gt;这样做能将混乱的数据清洗与干净的应用逻辑分离&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API 作为网关&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;数据库就绪后，Flask API 作为简单网关构建&lt;/li&gt;
+&lt;li&gt;重点是让端点易用直观（&lt;code&gt;/filter&lt;/code&gt;、&lt;code&gt;/search&lt;/code&gt;），而非过度设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;查看 &lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分&lt;/a&gt; 和 &lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分&lt;/a&gt; 了解 &amp;ldquo;Vibe Coding&amp;rdquo;（AI 辅助开发）如何影响代码结构的具体例子，比如延迟导入和动态表发现。这些模式都通过 AI 协助优化，避免常见陷阱并提升可扩展性。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

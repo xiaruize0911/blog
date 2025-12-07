@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQLite on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/tags/sqlite/</link>
+    <description>Recent content in SQLite on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a University Ranking Backend with Vibe Coding</title>
+      <link>http://localhost:1313/post/university-ranking-backend/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-backend/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll share the journey of building a &lt;strong&gt;University Ranking Backend&lt;/strong&gt;, a RESTful API designed to aggregate and serve university ranking data from prestigious sources like QS and US News. We&amp;rsquo;ll explore the &amp;ldquo;vibe coding&amp;rdquo; strategy used to build it, the technical methodology, and the core algorithms that make it tick.&lt;/p&gt;
+&lt;h2 id=&#34;-read-the-full-series&#34;&gt;📚 Read the Full Series&lt;/h2&gt;
+&lt;p&gt;This project is too interesting to cover in just one post! I&amp;rsquo;ve broken down the technical details into a deep-dive series:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

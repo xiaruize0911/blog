@@ -2,132 +2,378 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaruize.org/post/hello-world/</loc>
+    <loc>http://localhost:1313/post/hello-world/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/hello-world/"
+                href="http://localhost:1313/zh/post/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/hello-world/"
+                href="http://localhost:1313/post/hello-world/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/categories/</loc>
+    <loc>http://localhost:1313/post/university-ranking-backend-part-1/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-backend-part-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-backend-part-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/university-ranking-backend/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-backend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-backend/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/university-ranking-backend-part-2/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-backend-part-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-backend-part-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/api/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/api/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/api/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/backend/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/backend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/backend/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/categories/building-an-app-using-vibe-coding/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/categories/building-an-app-using-vibe-coding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/building-an-app-using-vibe-coding/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/code-analysis/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-engineering/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flask/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/flask/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/flask/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/python/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/sqlite/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/sqlite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/sqlite/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/gradient-descent/</loc>
     <lastmod>2025-09-25T21:26:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/categories/"
+                href="http://localhost:1313/zh/post/gradient-descent/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/categories/"
+                href="http://localhost:1313/post/gradient-descent/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/gradient-descent/</loc>
+    <loc>http://localhost:1313/categories/machine-learning/</loc>
     <lastmod>2025-09-25T21:26:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/gradient-descent/"
+                href="http://localhost:1313/zh/categories/machine-learning/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/gradient-descent/"
+                href="http://localhost:1313/categories/machine-learning/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/categories/machine-learning/</loc>
-    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaruize.org/zh/categories/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaruize.org/categories/machine-learning/"
-                />
-  </url><url>
-    <loc>https://xiaruize.org/post/</loc>
-    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaruize.org/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaruize.org/post/"
-                />
-  </url><url>
-    <loc>https://xiaruize.org/</loc>
-    <lastmod>2025-09-25T21:26:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaruize.org/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaruize.org/"
-                />
-  </url><url>
-    <loc>https://xiaruize.org/post/machine-learning-basics/</loc>
+    <loc>http://localhost:1313/post/machine-learning-basics/</loc>
     <lastmod>2025-09-22T22:50:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/machine-learning-basics/"
+                href="http://localhost:1313/zh/post/machine-learning-basics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/machine-learning-basics/"
+                href="http://localhost:1313/post/machine-learning-basics/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/deep-feedforward-neural-networks/</loc>
+    <loc>http://localhost:1313/post/deep-feedforward-neural-networks/</loc>
     <lastmod>2025-09-22T22:40:11+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/deep-feedforward-neural-networks/"
+                href="http://localhost:1313/zh/post/deep-feedforward-neural-networks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/deep-feedforward-neural-networks/"
+                href="http://localhost:1313/post/deep-feedforward-neural-networks/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/post/deep-learning-study-notes/</loc>
+    <loc>http://localhost:1313/post/deep-learning-study-notes/</loc>
     <lastmod>2025-09-22T22:03:47+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/post/deep-learning-study-notes/"
+                href="http://localhost:1313/zh/post/deep-learning-study-notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/post/deep-learning-study-notes/"
+                href="http://localhost:1313/post/deep-learning-study-notes/"
                 />
   </url><url>
-    <loc>https://xiaruize.org/tags/</loc>
+    <loc>http://localhost:1313/tags/context-api/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xiaruize.org/zh/tags/"
+                href="http://localhost:1313/zh/tags/context-api/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xiaruize.org/tags/"
+                href="http://localhost:1313/tags/context-api/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tags/react-native/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/react-native/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/react-native/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/react-query/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/react-query/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/react-query/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/state-management/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/university-ranking-frontend-part-2/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-frontend-part-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-frontend-part-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/vibe-coding/</loc>
+    <lastmod>2024-01-17T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/vibe-coding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/vibe-coding/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/implementation/</loc>
+    <lastmod>2024-01-16T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/navigation/</loc>
+    <lastmod>2024-01-16T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/search/</loc>
+    <lastmod>2024-01-16T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/university-ranking-frontend-part-1/</loc>
+    <lastmod>2024-01-16T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-frontend-part-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-frontend-part-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/university-ranking-frontend/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/post/university-ranking-frontend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/university-ranking-frontend/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/expo/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/expo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/expo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/frontend/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mobile-development/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
   </url>
 </urlset>

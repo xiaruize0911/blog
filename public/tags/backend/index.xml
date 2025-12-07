@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Backend on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/tags/backend/</link>
+    <description>Recent content in Backend on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>University Ranking Backend: Code Deep Dive (Part 1)</title>
+      <link>http://localhost:1313/post/university-ranking-backend-part-1/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-backend-part-1/</guid>
+      <description>&lt;p&gt;In this post, we will dive deep into the code structure of the &lt;strong&gt;University Ranking Backend&lt;/strong&gt;. We&amp;rsquo;ll explore the entry point of the application and the core logic that powers the university search and filtering system.&lt;/p&gt;
+&lt;h2 id=&#34;-high-level-overview&#34;&gt;🏗️ High-Level Overview&lt;/h2&gt;
+&lt;p&gt;The backend follows a standard &lt;strong&gt;Model-View-Controller (MVC)&lt;/strong&gt; pattern (where the &amp;ldquo;View&amp;rdquo; is JSON output).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;app.py&lt;/code&gt;&lt;/strong&gt;: The entry point that initializes the app and registers routes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;routes/&lt;/code&gt;&lt;/strong&gt;: Handles HTTP requests, parses parameters, and delegates logic to models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;models/&lt;/code&gt;&lt;/strong&gt;: Contains the business logic and database interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;db/&lt;/code&gt;&lt;/strong&gt;: Manages the SQLite database connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-the-entry-point-apppy&#34;&gt;1. The Entry Point: &lt;code&gt;app.py&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;This file is the heart of the application. It sets up the Flask server, configures security, and connects all the moving parts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a University Ranking Backend with Vibe Coding</title>
+      <link>http://localhost:1313/post/university-ranking-backend/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-backend/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll share the journey of building a &lt;strong&gt;University Ranking Backend&lt;/strong&gt;, a RESTful API designed to aggregate and serve university ranking data from prestigious sources like QS and US News. We&amp;rsquo;ll explore the &amp;ldquo;vibe coding&amp;rdquo; strategy used to build it, the technical methodology, and the core algorithms that make it tick.&lt;/p&gt;
+&lt;h2 id=&#34;-read-the-full-series&#34;&gt;📚 Read the Full Series&lt;/h2&gt;
+&lt;p&gt;This project is too interesting to cover in just one post! I&amp;rsquo;ve broken down the technical details into a deep-dive series:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>University Ranking Backend: Code Deep Dive (Part 2)</title>
+      <link>http://localhost:1313/post/university-ranking-backend-part-2/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-backend-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/post/university-ranking-backend-part-1/&#34;&gt;Part 1&lt;/a&gt;, we explored the core search logic and API structure. In this second part, we&amp;rsquo;ll dig into the &lt;strong&gt;Data Layer&lt;/strong&gt;—how data is normalized, stored, and retrieved in detail. We&amp;rsquo;ll also look at the utility scripts that power the backend&amp;rsquo;s intelligence.&lt;/p&gt;
+&lt;h2 id=&#34;1-the-data-glue-utilsnormalize_namepy&#34;&gt;1. The Data &amp;ldquo;Glue&amp;rdquo;: &lt;code&gt;utils/normalize_name.py&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;One of the biggest challenges in aggregating data from multiple sources (QS, US News, Niche) is that they all name universities differently. &amp;ldquo;MIT&amp;rdquo; might be &amp;ldquo;Massachusetts Institute of Technology&amp;rdquo; in one dataset and &amp;ldquo;Mass Inst of Tech&amp;rdquo; in another.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

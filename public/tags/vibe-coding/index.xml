@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vibe Coding on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/tags/vibe-coding/</link>
+    <description>Recent content in Vibe Coding on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jan 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>University Ranking Frontend Deep Dive (Part 2): State Management, React Query, and Theme Architecture</title>
+      <link>http://localhost:1313/post/university-ranking-frontend-part-2/</link>
+      <pubDate>Wed, 17 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-frontend-part-2/</guid>
+      <description>Part 2 of our deep dive into the University Ranking Frontend. We explore ThemeContext implementation, LanguageContext, RankingsProvider with React Query, and platform-specific optimizations.</description>
+    </item>
+    <item>
+      <title>University Ranking Frontend Deep Dive (Part 1): Navigation Architecture &amp; Search Implementation</title>
+      <link>http://localhost:1313/post/university-ranking-frontend-part-1/</link>
+      <pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-frontend-part-1/</guid>
+      <description>Part 1 of our deep dive into the University Ranking Frontend. We explore the navigation orchestration in App.js, implement the SearchScreen with real-time filtering and bottom sheet modals, and build the DetailPage for university profiles.</description>
+    </item>
+    <item>
+      <title>Building University Ranking Frontend with Vibe Coding: Architecture &amp; Design Strategy</title>
+      <link>http://localhost:1313/post/university-ranking-frontend/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/university-ranking-frontend/</guid>
+      <description>Explore how we built the University Ranking Frontend as a React Native mobile application using Vibe Coding—AI-assisted development that emphasizes pragmatic choices and rapid iteration.</description>
+    </item>
+  </channel>
+</rss>

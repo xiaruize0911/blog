@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vibe Coding on xiaruize&#39;s Blog</title>
+    <link>http://localhost:1313/zh/tags/vibe-coding/</link>
+    <description>Recent content in Vibe Coding on xiaruize&#39;s Blog</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 17 Jan 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>University Ranking Frontend 深度分析（第二部分）：状态管理、React Query 和主题架构</title>
+      <link>http://localhost:1313/zh/post/university-ranking-frontend-part-2/</link>
+      <pubDate>Wed, 17 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/post/university-ranking-frontend-part-2/</guid>
+      <description>我们对 University Ranking Frontend 代码深度分析的第二部分。探索 ThemeContext 实现、LanguageContext、RankingsProvider 与 React Query，以及平台特定的优化。</description>
+    </item>
+    <item>
+      <title>University Ranking Frontend 深度分析（第一部分）：导航架构与搜索实现</title>
+      <link>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</link>
+      <pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</guid>
+      <description>我们对 University Ranking Frontend 代码的深度分析第一部分。探索 App.js 中的导航编排，实现具有实时过滤和底部工作表模态框的 SearchScreen，并构建大学资料的 DetailPage。</description>
+    </item>
+    <item>
+      <title>用 Vibe Coding 构建 University Ranking Frontend：架构与设计策略</title>
+      <link>http://localhost:1313/zh/post/university-ranking-frontend/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/post/university-ranking-frontend/</guid>
+      <description>探索我们如何使用 Vibe Coding（AI 辅助开发）构建 University Ranking Frontend——一个注重实用选择和快速迭代的生产级 React Native 移动应用。</description>
+    </item>
+  </channel>
+</rss>
