@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>实现 on xiaruize&#39;s Blog</title>
-    <link>http://localhost:1313/zh/tags/%E5%AE%9E%E7%8E%B0/</link>
+    <link>https://xiaruize.org/zh/tags/%E5%AE%9E%E7%8E%B0/</link>
     <description>Recent content in 实现 on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 16 Jan 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/tags/%E5%AE%9E%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xiaruize.org/zh/tags/%E5%AE%9E%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>University Ranking Frontend 深度分析（第一部分）：导航架构与搜索实现</title>
-      <link>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</guid>
+      <link>https://xiaruize.org/zh/post/university-ranking-frontend-part-1/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/university-ranking-frontend-part-1/</guid>
       <description>我们对 University Ranking Frontend 代码的深度分析第一部分。探索 App.js 中的导航编排，实现具有实时过滤和底部工作表模态框的 SearchScreen，并构建大学资料的 DetailPage。</description>
     </item>
   </channel>

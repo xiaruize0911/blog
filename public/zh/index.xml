@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>xiaruize&#39;s Blog</title>
-    <link>http://localhost:1313/zh/</link>
+    <link>https://xiaruize.org/zh/</link>
     <description>Recent content on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xiaruize.org/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/zh/post/hello-world/</link>
+      <link>https://xiaruize.org/zh/post/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/hello-world/</guid>
+      <guid>https://xiaruize.org/zh/post/hello-world/</guid>
       <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there! 👋&lt;/h3&gt;
 &lt;p&gt;I’m &lt;strong&gt;Ruize Xia&lt;/strong&gt; (xiaruize0911), a student at &lt;strong&gt;Nanjing Foreign Language School&lt;/strong&gt; in &lt;strong&gt;Nanjing, Jiangsu, China&lt;/strong&gt;. I am passionate about learning and exploring new technologies and ideas.&lt;/p&gt;
 &lt;hr&gt;
@@ -30,9 +30,9 @@
     </item>
     <item>
       <title>University Ranking Backend：代码深度解析（第一部分）</title>
-      <link>http://localhost:1313/zh/post/university-ranking-backend-part-1/</link>
+      <link>https://xiaruize.org/zh/post/university-ranking-backend-part-1/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-backend-part-1/</guid>
+      <guid>https://xiaruize.org/zh/post/university-ranking-backend-part-1/</guid>
       <description>&lt;p&gt;本篇将深入 &lt;strong&gt;University Ranking Backend&lt;/strong&gt; 的代码结构。我们探索应用入口和驱动大学搜索过滤系统的核心逻辑。&lt;/p&gt;
 &lt;h2 id=&#34;-整体架构&#34;&gt;🏗️ 整体架构&lt;/h2&gt;
 &lt;p&gt;后端遵循标准的 &lt;strong&gt;模型-视图-控制器 (MVC)&lt;/strong&gt; 模式（其中&amp;quot;视图&amp;quot;是 JSON 响应）。&lt;/p&gt;
@@ -86,10 +86,10 @@
     </item>
     <item>
       <title>University Ranking Backend：代码深度解析（第二部分）</title>
-      <link>http://localhost:1313/zh/post/university-ranking-backend-part-2/</link>
+      <link>https://xiaruize.org/zh/post/university-ranking-backend-part-2/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-backend-part-2/</guid>
-      <description>&lt;p&gt;在 &lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分&lt;/a&gt;，我们探讨了核心搜索逻辑和 API 结构。本篇深入 &lt;strong&gt;数据层&lt;/strong&gt;——如何规范化、存储和检索数据。我们还看看驱动后端功能的实用脚本。&lt;/p&gt;
+      <guid>https://xiaruize.org/zh/post/university-ranking-backend-part-2/</guid>
+      <description>&lt;p&gt;在 &lt;a href=&#34;https://xiaruize.org/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分&lt;/a&gt;，我们探讨了核心搜索逻辑和 API 结构。本篇深入 &lt;strong&gt;数据层&lt;/strong&gt;——如何规范化、存储和检索数据。我们还看看驱动后端功能的实用脚本。&lt;/p&gt;
 &lt;h2 id=&#34;1-数据胶水utilsnormalize_namepy&#34;&gt;1. 数据&amp;quot;胶水&amp;quot;：&lt;code&gt;utils/normalize_name.py&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;从多个来源（QS、US News、Niche）聚合数据的最大挑战是它们命名大学的方式不一。&amp;ldquo;MIT&amp;rdquo; 在一个数据集中是&amp;quot;Massachusetts Institute of Technology&amp;quot;，在另一个可能是&amp;quot;Mass Inst of Tech&amp;quot;。&lt;/p&gt;
 &lt;p&gt;这个文件包含标准化名称的逻辑，以便我们能将数据链接在一起。&lt;/p&gt;
@@ -194,21 +194,21 @@
     </item>
     <item>
       <title>使用 Vibe Coding 构建大学排名后端</title>
-      <link>http://localhost:1313/zh/post/university-ranking-backend/</link>
+      <link>https://xiaruize.org/zh/post/university-ranking-backend/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-backend/</guid>
+      <guid>https://xiaruize.org/zh/post/university-ranking-backend/</guid>
       <description>&lt;p&gt;在这篇文章中，我将分享构建 &lt;strong&gt;University Ranking Backend&lt;/strong&gt; 的过程。这是一个 RESTful API，用于聚合和提供来自 QS 和 US News 等权威机构的大学排名数据。我们将探讨 Vibe Coding 策略、技术架构和驱动系统的核心算法。&lt;/p&gt;
 &lt;h2 id=&#34;-完整系列阅读&#34;&gt;📚 完整系列阅读&lt;/h2&gt;
 &lt;p&gt;这个项目内容丰富，我将其分为深入系列文章：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分：核心逻辑与 API 架构&lt;/a&gt;&lt;/strong&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://xiaruize.org/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分：核心逻辑与 API 架构&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;探索 &lt;code&gt;app.py&lt;/code&gt; 应用入口&lt;/li&gt;
 &lt;li&gt;解析 &lt;code&gt;models/universities.py&lt;/code&gt; 中的&amp;quot;智能表选择&amp;quot;算法&lt;/li&gt;
 &lt;li&gt;讲解 API 路由的实现&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分：数据工程与脚本&lt;/a&gt;&lt;/strong&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://xiaruize.org/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分：数据工程与脚本&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;介绍 ETL 流程（提取、转换、加载）&lt;/li&gt;
 &lt;li&gt;展示如何在不同数据集间标准化大学名称&lt;/li&gt;
@@ -247,15 +247,36 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;查看 &lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分&lt;/a&gt; 和 &lt;a href=&#34;http://localhost:1313/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分&lt;/a&gt; 了解 &amp;ldquo;Vibe Coding&amp;rdquo;（AI 辅助开发）如何影响代码结构的具体例子，比如延迟导入和动态表发现。这些模式都通过 AI 协助优化，避免常见陷阱并提升可扩展性。&lt;/p&gt;</description>
+&lt;p&gt;查看 &lt;a href=&#34;https://xiaruize.org/zh/post/university-ranking-backend-part-1/&#34;&gt;第一部分&lt;/a&gt; 和 &lt;a href=&#34;https://xiaruize.org/zh/post/university-ranking-backend-part-2/&#34;&gt;第二部分&lt;/a&gt; 了解 &amp;ldquo;Vibe Coding&amp;rdquo;（AI 辅助开发）如何影响代码结构的具体例子，比如延迟导入和动态表发现。这些模式都通过 AI 协助优化，避免常见陷阱并提升可扩展性。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>University Ranking Frontend 深度分析（第二部分）：状态管理、React Query 和主题架构</title>
+      <link>https://xiaruize.org/zh/post/university-ranking-frontend-part-2/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/university-ranking-frontend-part-2/</guid>
+      <description>我们对 University Ranking Frontend 代码深度分析的第二部分。探索 ThemeContext 实现、LanguageContext、RankingsProvider 与 React Query，以及平台特定的优化。</description>
+    </item>
+    <item>
+      <title>University Ranking Frontend 深度分析（第一部分）：导航架构与搜索实现</title>
+      <link>https://xiaruize.org/zh/post/university-ranking-frontend-part-1/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/university-ranking-frontend-part-1/</guid>
+      <description>我们对 University Ranking Frontend 代码的深度分析第一部分。探索 App.js 中的导航编排，实现具有实时过滤和底部工作表模态框的 SearchScreen，并构建大学资料的 DetailPage。</description>
+    </item>
+    <item>
+      <title>用 Vibe Coding 构建 University Ranking Frontend：架构与设计策略</title>
+      <link>https://xiaruize.org/zh/post/university-ranking-frontend/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/zh/post/university-ranking-frontend/</guid>
+      <description>探索我们如何使用 Vibe Coding（AI 辅助开发）构建 University Ranking Frontend——一个注重实用选择和快速迭代的生产级 React Native 移动应用。</description>
     </item>
     <item>
       <title>Gradient Descent</title>
-      <link>http://localhost:1313/zh/post/gradient-descent/</link>
+      <link>https://xiaruize.org/zh/post/gradient-descent/</link>
       <pubDate>Thu, 25 Sep 2025 21:26:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh/post/gradient-descent/</guid>
+      <guid>https://xiaruize.org/zh/post/gradient-descent/</guid>
       <description>&lt;h1 id=&#34;gradient-descent-梯度下降&#34;&gt;Gradient Descent （梯度下降）&lt;/h1&gt;
-&lt;p&gt;梯度下降（Gradient Descent）是一种用于优化目标函数的迭代算法，广泛应用于机器学习和深度学习中，用于训练模型以最小化损失函数。推荐先阅读 &lt;a href=&#34;http://localhost:1313/machine-learning-basics&#34;&gt;机器学习基础&lt;/a&gt; 文章以对梯度下降的背景有大概的了解。&lt;/p&gt;
+&lt;p&gt;梯度下降（Gradient Descent）是一种用于优化目标函数的迭代算法，广泛应用于机器学习和深度学习中，用于训练模型以最小化损失函数。推荐先阅读 &lt;a href=&#34;https://xiaruize.org/machine-learning-basics&#34;&gt;机器学习基础&lt;/a&gt; 文章以对梯度下降的背景有大概的了解。&lt;/p&gt;
 &lt;h2 id=&#34;目标函数&#34;&gt;目标函数&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;目标函数 (Objective Function)&lt;/strong&gt;：有时也称作准则(criterion)、代价函数(cost function)或损失函数(loss function)，是我们希望最小化的函数，通常表示为 $J(\theta)$，其中 $\theta$ 是模型的参数。例如，在线性回归中使用的 均方误差 (Mean Squared Error, MSE) 就是一个常见的目标函数。&lt;/p&gt;
 &lt;p&gt;一般来说，定义 $x^* = \arg\min_{x} J(x)$&lt;/p&gt;
@@ -271,9 +292,9 @@ $$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt
     </item>
     <item>
       <title>机器学习基础</title>
-      <link>http://localhost:1313/zh/post/machine-learning-basics/</link>
+      <link>https://xiaruize.org/zh/post/machine-learning-basics/</link>
       <pubDate>Mon, 22 Sep 2025 22:50:31 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/machine-learning-basics/</guid>
+      <guid>https://xiaruize.org/zh/post/machine-learning-basics/</guid>
       <description>&lt;h1 id=&#34;machine-learning-basics&#34;&gt;Machine Learning Basics&lt;/h1&gt;
 &lt;p&gt;这篇文章基于Deep Learning [@Goodfellow-et-al-2016] 一书 Chapt5，介绍机器学习的一些基本概念和方法。&lt;/p&gt;
 &lt;h2 id=&#34;supervised-learning&#34;&gt;Supervised Learning&lt;/h2&gt;
@@ -296,9 +317,9 @@ $$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt
     </item>
     <item>
       <title>deep-feedforward-neural-networks</title>
-      <link>http://localhost:1313/zh/post/deep-feedforward-neural-networks/</link>
+      <link>https://xiaruize.org/zh/post/deep-feedforward-neural-networks/</link>
       <pubDate>Mon, 22 Sep 2025 22:40:11 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/deep-feedforward-neural-networks/</guid>
+      <guid>https://xiaruize.org/zh/post/deep-feedforward-neural-networks/</guid>
       <description>&lt;h1 id=&#34;deep-feedforward-neural-networks&#34;&gt;Deep Feedforward Neural Networks&lt;/h1&gt;
 &lt;p&gt;本文是对&lt;a href=&#34;http://www.deeplearningbook.org/&#34;&gt;Deep Learning&lt;/a&gt;一书中第6章内容的学习笔记。&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -317,9 +338,9 @@ $$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt
     </item>
     <item>
       <title>Deep Learning 学习小记</title>
-      <link>http://localhost:1313/zh/post/deep-learning-study-notes/</link>
+      <link>https://xiaruize.org/zh/post/deep-learning-study-notes/</link>
       <pubDate>Mon, 22 Sep 2025 22:03:47 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/deep-learning-study-notes/</guid>
+      <guid>https://xiaruize.org/zh/post/deep-learning-study-notes/</guid>
       <description>&lt;h1 id=&#34;deep-learning-学习小记&#34;&gt;Deep Learning 学习小记&lt;/h1&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;本文是一些关于DL方向的学习笔记和项目记录的汇总目录。&lt;/p&gt;
@@ -327,30 +348,9 @@ $$&lt;p&gt;因此，导数的负方向是函数下降最快的方向。&lt;/p&gt
 &lt;p&gt;谢谢&lt;/p&gt;
 &lt;h2 id=&#34;目录&#34;&gt;目录&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/machine-learning-basics/&#34;&gt;Machine Learning Basics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xiaruize.org/machine-learning-basics/&#34;&gt;Machine Learning Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xiaruize.org/deep-feedforward-neural-networks/&#34;&gt;Deep Feedforward Neural Networks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>University Ranking Frontend 深度分析（第二部分）：状态管理、React Query 和主题架构</title>
-      <link>http://localhost:1313/zh/post/university-ranking-frontend-part-2/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-frontend-part-2/</guid>
-      <description>我们对 University Ranking Frontend 代码深度分析的第二部分。探索 ThemeContext 实现、LanguageContext、RankingsProvider 与 React Query，以及平台特定的优化。</description>
-    </item>
-    <item>
-      <title>University Ranking Frontend 深度分析（第一部分）：导航架构与搜索实现</title>
-      <link>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-frontend-part-1/</guid>
-      <description>我们对 University Ranking Frontend 代码的深度分析第一部分。探索 App.js 中的导航编排，实现具有实时过滤和底部工作表模态框的 SearchScreen，并构建大学资料的 DetailPage。</description>
-    </item>
-    <item>
-      <title>用 Vibe Coding 构建 University Ranking Frontend：架构与设计策略</title>
-      <link>http://localhost:1313/zh/post/university-ranking-frontend/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/post/university-ranking-frontend/</guid>
-      <description>探索我们如何使用 Vibe Coding（AI 辅助开发）构建 University Ranking Frontend——一个注重实用选择和快速迭代的生产级 React Native 移动应用。</description>
     </item>
   </channel>
 </rss>

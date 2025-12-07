@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>State Management on xiaruize&#39;s Blog</title>
-    <link>http://localhost:1313/tags/state-management/</link>
+    <link>https://xiaruize.org/tags/state-management/</link>
     <description>Recent content in State Management on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jan 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/state-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xiaruize.org/tags/state-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>University Ranking Frontend Deep Dive (Part 2): State Management, React Query, and Theme Architecture</title>
-      <link>http://localhost:1313/post/university-ranking-frontend-part-2/</link>
-      <pubDate>Wed, 17 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/university-ranking-frontend-part-2/</guid>
+      <link>https://xiaruize.org/post/university-ranking-frontend-part-2/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/post/university-ranking-frontend-part-2/</guid>
       <description>Part 2 of our deep dive into the University Ranking Frontend. We explore ThemeContext implementation, LanguageContext, RankingsProvider with React Query, and platform-specific optimizations.</description>
     </item>
   </channel>

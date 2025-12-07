@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Navigation on xiaruize&#39;s Blog</title>
-    <link>http://localhost:1313/tags/navigation/</link>
+    <link>https://xiaruize.org/tags/navigation/</link>
     <description>Recent content in Navigation on xiaruize&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jan 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xiaruize.org/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>University Ranking Frontend Deep Dive (Part 1): Navigation Architecture &amp; Search Implementation</title>
-      <link>http://localhost:1313/post/university-ranking-frontend-part-1/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/university-ranking-frontend-part-1/</guid>
+      <link>https://xiaruize.org/post/university-ranking-frontend-part-1/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://xiaruize.org/post/university-ranking-frontend-part-1/</guid>
       <description>Part 1 of our deep dive into the University Ranking Frontend. We explore the navigation orchestration in App.js, implement the SearchScreen with real-time filtering and bottom sheet modals, and build the DetailPage for university profiles.</description>
     </item>
   </channel>
